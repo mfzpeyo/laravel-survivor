@@ -1,6 +1,6 @@
 <?php
 
-namespace Influendo\LaravelSurvivor;
+namespace Peyotest\LaravelSurvivor;
 
 use Blade;
 use Illuminate\Support\ServiceProvider;
