@@ -37,7 +37,7 @@ class SurvivorServiceProvider extends ServiceProvider
 
         // Setup a blade directive for the ping script
         Blade::directive('survivor', function($expression) {
-            app('Influendo\LaravelSurvivor\Survivor')->getScript();
+            app('Peyotest\LaravelSurvivor\Survivor')->getScript();
         });
     }
 
