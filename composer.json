@@ -11,13 +11,6 @@
     "require": {
         "php": "^8.1"
     },
-	"extra": {
-        "laravel": {
-            "providers": [
-                "Peyotest\\LaravelSurvivor\\SurvivorServiceProvider"
-            ]
-        }
-    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
