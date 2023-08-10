@@ -8,6 +8,6 @@ if ( ! function_exists('survivor')) {
      */
     function survivor()
     {
-        return app('Influendo\LaravelSurvivor\Survivor')->getScript();
+        return app('Peyotest\LaravelSurvivor\Survivor')->getScript();
     }
 }
