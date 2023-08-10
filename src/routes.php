@@ -1,8 +1,8 @@
 <?php
-use Peyotest\LaravelSurvivor\SurvivorController;
 
 Route::group(['middleware' => ['web']], function () {
-    Route::get((config('survivor.ping_url') ?: 'survivor/ping'),
-		[SurvivorController::class,'ping']
-    ])->name('survivor.ping');
+    Route::get((config('survivor.ping_url') ?: 'survivor/ping'), [
+        'as'   => 'survivor.ping',
+        'uses' => 'Peyotest\LaravelSurvivor\SurvivorController@ping'
+    ]);
 });
