@@ -14,7 +14,7 @@
 	"extra": {
         "laravel": {
             "providers": [
-                "Influendo\\LaravelSurvivor\\SurvivorServiceProvider"
+                "Peyotest\\LaravelSurvivor\\SurvivorServiceProvider"
             ]
         }
     },
